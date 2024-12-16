@@ -63,3 +63,11 @@ Project License can be found [here](LICENSE).
 
 
 ## Reference
+
+- [letta](https://github.com/letta-ai/letta)
+- [long-term-memory](https://langchain-ai.github.io/long-term-memory/)
+- [mem0](https://github.com/mem0ai/mem0)
+- [memgraph](https://github.com/memgraph/memgraph)
+- [sandboxfusion](https://github.com/bytedance/SandboxFusion)
+- [vanna](https://github.com/vanna-ai/vanna)
+- [zep](https://www.getzep.com/)
