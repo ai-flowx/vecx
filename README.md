@@ -32,8 +32,8 @@
 Usage: ragx --config-file <NAME> --listen-url <URL>
 
 Options:
-  -c, --config-file <NAME>  Config file (.yml) [default: config.yml]
-  -l, --listen-url <URL>    Listen url (host:port) [default: :8080]
+  -c, --config-file <NAME>  Config file [default: config.yml]
+  -l, --listen-url <URL>    Listen url [default: :8080]
   -h, --help                Print help
   -V, --version             Print version
 ```
