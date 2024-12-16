@@ -19,7 +19,7 @@ impl Argument {
                     .short('c')
                     .long("config-file")
                     .value_name("NAME")
-                    .help("Config file (.yml)")
+                    .help("Config file")
                     .default_value("config.yml")
                     .required(true),
             )
@@ -28,7 +28,7 @@ impl Argument {
                     .short('l')
                     .long("listen-url")
                     .value_name("URL")
-                    .help("Listen url (host:port)")
+                    .help("Listen url")
                     .default_value(":8080")
                     .required(true),
             )
