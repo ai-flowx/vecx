@@ -53,6 +53,10 @@ impl Config {
     }
 
     pub fn version(&mut self) -> Result<(), Box<dyn Error>> {
+        if self.version_info.len() == 0 {
+            return Err("invalid version".into());
+        }
+
         Ok(())
     }
 }

@@ -51,5 +51,5 @@ fn test_version() {
         ..Default::default()
     };
 
-    assert!(c.version().is_ok());
+    assert!(c.version().is_err());
 }

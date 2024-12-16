@@ -21,7 +21,7 @@
 ## Run
 
 ```bash
-./ragx --config-file="config.yml" --listen-url="http://127.0.0.1:8080"
+./ragx --config-file="config.yml" --listen-url=":8080"
 ```
 
 
@@ -29,6 +29,13 @@
 ## Usage
 
 ```
+Usage: ragx --config-file <NAME> --listen-url <URL>
+
+Options:
+  -c, --config-file <NAME>  Config file (.yml) [default: config.yml]
+  -l, --listen-url <URL>    Listen url (host:port) [default: :8080]
+  -h, --help                Print help
+  -V, --version             Print version
 ```
 
 

@@ -1,6 +1,8 @@
 use clap::{Arg, Command};
 use std::error::Error;
 
+static VERSION: &str = concat!(env!("CARGO_PKG_VERSION"), "-build-", env!("build"));
+
 #[derive(Clone, Default)]
 pub struct Argument {
     pub config_file: String,
@@ -10,11 +12,8 @@ pub struct Argument {
 
 impl Argument {
     pub fn parse(&mut self) -> Result<(), Box<dyn Error>> {
-        self.version_info =
-            concat!(env!("CARGO_PKG_VERSION"), "-build-", env!("build")).to_string();
-
         let matches = Command::new("ragx")
-            .version(&*self.version_info)
+            .version(VERSION)
             .arg(
                 Arg::new("config_file")
                     .short('c')
@@ -30,20 +29,18 @@ impl Argument {
                     .long("listen-url")
                     .value_name("URL")
                     .help("Listen url (host:port)")
-                    .default_value("http://127.0.0.1:8080")
+                    .default_value(":8080")
                     .required(true),
             )
             .get_matches();
 
-        match matches.value_source("config_file") {
-            Some(name) => self.config_file = name.to_string(),
-            None => self.config_file = "".to_string(),
-        }
+        let config_file = matches.get_one::<String>("config_file").unwrap();
+        self.config_file = config_file.to_string();
 
-        match matches.value_source("listen_url") {
-            Some(url) => self.listen_url = url.to_string(),
-            None => self.listen_url = "".to_string(),
-        }
+        let listen_url = matches.get_one::<String>("listen_url").unwrap();
+        self.listen_url = listen_url.to_string();
+
+        self.version_info = VERSION.to_string();
 
         Ok(())
     }
