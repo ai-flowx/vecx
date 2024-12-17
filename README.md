@@ -8,7 +8,7 @@
 
 ## Introduction
 
-*ragx* is the AI RAG of *[flowx](https://github.com/ai-flowx/)* written in Rust.
+*ragx* is the AI RAG of [flowx](https://github.com/ai-flowx/) written in Rust.
 
 
 
@@ -34,7 +34,7 @@ Usage: ragx --config-file <FILE> --listen-port <PORT> --repo-path <PATH>
 Options:
   -c, --config-file <FILE>  Config file [default: config.yml]
   -l, --listen-port <PORT>  Listen port [default: :8080]
-  -r, --repo-path <PATH>    Repo path (upstream:path/to/name, upstream:gerrit|git|github|gitlab) [default: git:.]
+  -r, --repo-path <PATH>    Repo path (upstream:path/to/repo, upstream:gerrit|git|github|gitlab) [default: git:.]
   -h, --help                Print help
   -V, --version             Print version
 ```

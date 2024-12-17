@@ -38,7 +38,7 @@ impl Argument {
                     .short('r')
                     .long("repo-path")
                     .value_name("PATH")
-                    .help("Repo path (upstream:path/to/name, upstream:gerrit|git|github|gitlab)")
+                    .help("Repo path (upstream:path/to/repo, upstream:gerrit|git|github|gitlab)")
                     .default_value("git:.")
                     .required(true),
             )
