@@ -96,5 +96,6 @@ Project License can be found [here](LICENSE).
 - [mem0](https://github.com/mem0ai/mem0)
 - [memgraph](https://github.com/memgraph/memgraph)
 - [sandboxfusion](https://github.com/bytedance/SandboxFusion)
+- [tree-sitter-graph](https://github.com/tree-sitter/tree-sitter-graph)
 - [vanna](https://github.com/vanna-ai/vanna)
 - [zep](https://www.getzep.com/)
