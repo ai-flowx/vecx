@@ -64,6 +64,7 @@ Project License can be found [here](LICENSE).
 
 ## Reference
 
+- [codegraphrag](https://mp.weixin.qq.com/s/hYJsWDkh6GnM1xqpg4gnXw)
 - [letta](https://github.com/letta-ai/letta)
 - [long-term-memory](https://langchain-ai.github.io/long-term-memory/)
 - [mem0](https://github.com/mem0ai/mem0)
