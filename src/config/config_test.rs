@@ -45,6 +45,16 @@ fn test_listen() {
 }
 
 #[test]
+fn test_repo() {
+    let mut c = super::config::Config {
+        repo_path: "".to_string(),
+        ..Default::default()
+    };
+
+    assert!(c.repo().is_err());
+}
+
+#[test]
 fn test_version() {
     let mut c = super::config::Config {
         version_info: "".to_string(),

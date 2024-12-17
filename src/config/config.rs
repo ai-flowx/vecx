@@ -9,6 +9,7 @@ pub struct Config {
     pub config_data: ConfigData,
     pub config_file: String,
     pub listen_url: String,
+    pub repo_path: String,
     pub version_info: String,
 }
 
@@ -20,6 +21,7 @@ impl Config {
     pub fn build(&mut self) -> Result<(), Box<dyn Error>> {
         self.config()?;
         self.listen()?;
+        self.repo()?;
         self.version()?;
 
         Ok(())
@@ -47,6 +49,14 @@ impl Config {
     pub fn listen(&mut self) -> Result<(), Box<dyn Error>> {
         if self.listen_url.len() == 0 {
             return Err("invalid url".into());
+        }
+
+        Ok(())
+    }
+
+    pub fn repo(&mut self) -> Result<(), Box<dyn Error>> {
+        if self.repo_path.len() == 0 {
+            return Err("invalid path".into());
         }
 
         Ok(())

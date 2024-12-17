@@ -7,6 +7,7 @@ static VERSION: &str = concat!(env!("CARGO_PKG_VERSION"), "-build-", env!("build
 pub struct Argument {
     pub config_file: String,
     pub listen_url: String,
+    pub repo_path: String,
     pub version_info: String,
 }
 
@@ -32,6 +33,15 @@ impl Argument {
                     .default_value(":8080")
                     .required(true),
             )
+            .arg(
+                Arg::new("repo_path")
+                    .short('r')
+                    .long("repo-path")
+                    .value_name("PATH")
+                    .help("Repo path (upstream:path/to/name, upstream:gerrit|git|github|gitlab)")
+                    .default_value("git:.")
+                    .required(true),
+            )
             .get_matches();
 
         let config_file = matches.get_one::<String>("config_file").unwrap();
@@ -39,6 +49,9 @@ impl Argument {
 
         let listen_url = matches.get_one::<String>("listen_url").unwrap();
         self.listen_url = listen_url.to_string();
+
+        let repo_path = matches.get_one::<String>("repo_path").unwrap();
+        self.repo_path = repo_path.to_string();
 
         self.version_info = VERSION.to_string();
 
