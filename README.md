@@ -56,6 +56,13 @@ TBD
 
 ![arch](./arch.png "Architecture")
 
+- `collector`: [walkdir](https://docs.rs/walkdir/latest/walkdir/)
+- `parser`: [tree-sitter](https://docs.rs/tree-sitter/latest/tree_sitter/)（static），[tokenizers](https://docs.rs/tokenizers/latest/tokenizers/) & [rust-bert](https://docs.rs/rust-bert/latest/rust_bert/)（llm）
+- `optimizer`: [moka](https://docs.rs/moka/latest/moka/)（cache），[tokio](https://docs.rs/tokio/latest/tokio/)（parallel）
+- `builder`: [tree-sitter-graph](https://docs.rs/tree-sitter-graph/latest/tree_sitter_graph/)
+- `memory`: [petgraph](https://docs.rs/petgraph/latest/petgraph/)
+- `api`: [axum](https://docs.rs/axum/latest/axum/)
+
 
 
 ## Indexing
