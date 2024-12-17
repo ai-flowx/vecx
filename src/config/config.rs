@@ -8,7 +8,7 @@ use std::path::Path;
 pub struct Config {
     pub config_data: ConfigData,
     pub config_file: String,
-    pub listen_url: String,
+    pub listen_port: String,
     pub repo_path: String,
     pub version_info: String,
 }
@@ -47,8 +47,8 @@ impl Config {
     }
 
     pub fn listen(&mut self) -> Result<(), Box<dyn Error>> {
-        if self.listen_url.len() == 0 {
-            return Err("invalid url".into());
+        if self.listen_port.len() == 0 {
+            return Err("invalid port".into());
         }
 
         Ok(())

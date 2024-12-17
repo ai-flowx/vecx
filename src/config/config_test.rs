@@ -37,7 +37,7 @@ fn test_config() {
 #[test]
 fn test_listen() {
     let mut c = super::config::Config {
-        listen_url: "".to_string(),
+        listen_port: "".to_string(),
         ..Default::default()
     };
 

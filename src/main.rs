@@ -17,7 +17,7 @@ fn main() {
 
     let mut c = Config {
         config_file: a.config_file,
-        listen_url: a.listen_url,
+        listen_port: a.listen_port,
         repo_path: a.repo_path,
         version_info: a.version_info,
         ..Default::default()

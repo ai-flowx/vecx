@@ -6,7 +6,7 @@ static VERSION: &str = concat!(env!("CARGO_PKG_VERSION"), "-build-", env!("build
 #[derive(Clone, Default)]
 pub struct Argument {
     pub config_file: String,
-    pub listen_url: String,
+    pub listen_port: String,
     pub repo_path: String,
     pub version_info: String,
 }
@@ -17,25 +17,25 @@ impl Argument {
             .version(VERSION)
             .arg(
                 Arg::new("config_file")
-                    .short('c')
+                    .short('f')
                     .long("config-file")
-                    .value_name("NAME")
+                    .value_name("FILE")
                     .help("Config file")
                     .default_value("config.yml")
                     .required(true),
             )
             .arg(
-                Arg::new("listen_url")
-                    .short('l')
-                    .long("listen-url")
-                    .value_name("URL")
-                    .help("Listen url")
+                Arg::new("listen_port")
+                    .short('p')
+                    .long("listen-port")
+                    .value_name("PORT")
+                    .help("Listen port")
                     .default_value(":8080")
                     .required(true),
             )
             .arg(
                 Arg::new("repo_path")
-                    .short('r')
+                    .short('p')
                     .long("repo-path")
                     .value_name("PATH")
                     .help("Repo path (upstream:path/to/name, upstream:gerrit|git|github|gitlab)")
@@ -47,8 +47,8 @@ impl Argument {
         let config_file = matches.get_one::<String>("config_file").unwrap();
         self.config_file = config_file.to_string();
 
-        let listen_url = matches.get_one::<String>("listen_url").unwrap();
-        self.listen_url = listen_url.to_string();
+        let listen_port = matches.get_one::<String>("listen_port").unwrap();
+        self.listen_port = listen_port.to_string();
 
         let repo_path = matches.get_one::<String>("repo_path").unwrap();
         self.repo_path = repo_path.to_string();
