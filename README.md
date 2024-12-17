@@ -8,7 +8,7 @@
 
 ## Introduction
 
-*ragx* is the AI RAG of [flowx](https://github.com/ai-flowx/) written in Rust.
+*ragx* is the ai rag of [flowx](https://github.com/ai-flowx/) written in Rust.
 
 
 
