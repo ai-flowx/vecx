@@ -21,7 +21,7 @@
 ## Run
 
 ```bash
-./ragx --config-file="config.yml" --listen-url=":8080" --repo-path="git:path/to/name"
+./ragx --config-file="config.yml" --listen-port=":8080" --repo-path="git:path/to/repo"
 ```
 
 
@@ -48,7 +48,6 @@ Options:
 An example of configuration in [config.yml](https://github.com/ai-flowx/ragx/blob/main/src/config/config.yml):
 
 ```yaml
-TBD
 ```
 
 
