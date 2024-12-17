@@ -26,6 +26,7 @@ path = "src/main.rs"
 strip = "debuginfo"
 
 [dependencies]
+axum = "0.7.9"
 clap = "4.5.23"
 serde = "1.0.216"
 serde_derive = "1.0.216"
