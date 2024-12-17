@@ -31,11 +31,9 @@ clap = "4.5"
 moka = { version = "0.12", features = ["future"] }
 openssl = { version = "0.10", features = ["vendored"] }
 petgraph = "0.6"
-rust-bert = "0.23"
 serde = "1.0"
 serde_derive = "1.0"
 serde_yaml = "0.9"
-tokenizers = "0.21"
 tree-sitter-graph = "0.12"
 walkdir = "2.5"
 
