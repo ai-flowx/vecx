@@ -21,7 +21,7 @@
 ## Run
 
 ```bash
-./ragx --config-file="config.yml" --listen-url=":8080"
+./ragx --config-file="config.yml" --listen-url=":8080" --repo-path="git:path/to/name"
 ```
 
 
