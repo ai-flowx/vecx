@@ -30,9 +30,11 @@ axum = "0.7.9"
 clap = "4.5.23"
 moka = { version = "0.12.8", features = ["future"] }
 petgraph = "0.6.5"
+rust-bert = "0.23.0"
 serde = "1.0.216"
 serde_derive = "1.0.216"
 serde_yaml = "0.9.33"
+tokenizers = "0.21.0"
 tree-sitter-graph = "0.12"
 
 [build-dependencies]
