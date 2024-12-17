@@ -32,9 +32,9 @@
 Usage: ragx --config-file <FILE> --listen-port <PORT> --repo-path <PATH>
 
 Options:
-  -f, --config-file <FILE>  Config file [default: config.yml]
-  -p, --listen-port <PORT>  Listen port [default: :8080]
-  -p, --repo-path <PATH>    Repo path (upstream:path/to/name, upstream:gerrit|git|github|gitlab) [default: git:.]
+  -c, --config-file <FILE>  Config file [default: config.yml]
+  -l, --listen-port <PORT>  Listen port [default: :8080]
+  -r, --repo-path <PATH>    Repo path (upstream:path/to/name, upstream:gerrit|git|github|gitlab) [default: git:.]
   -h, --help                Print help
   -V, --version             Print version
 ```

@@ -17,7 +17,7 @@ impl Argument {
             .version(VERSION)
             .arg(
                 Arg::new("config_file")
-                    .short('f')
+                    .short('c')
                     .long("config-file")
                     .value_name("FILE")
                     .help("Config file")
@@ -26,7 +26,7 @@ impl Argument {
             )
             .arg(
                 Arg::new("listen_port")
-                    .short('p')
+                    .short('l')
                     .long("listen-port")
                     .value_name("PORT")
                     .help("Listen port")
@@ -35,7 +35,7 @@ impl Argument {
             )
             .arg(
                 Arg::new("repo_path")
-                    .short('p')
+                    .short('r')
                     .long("repo-path")
                     .value_name("PATH")
                     .help("Repo path (upstream:path/to/name, upstream:gerrit|git|github|gitlab)")
