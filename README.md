@@ -120,6 +120,10 @@ Project License can be found [here](LICENSE).
 - [tree-sitter-graph](https://github.com/tree-sitter/tree-sitter-graph)
 - [vanna](https://github.com/vanna-ai/vanna)
 
+### Toolchains
+
+- [rustup-android](https://github.com/rust-lang/rustup/issues/2872)
+
 ### Vector
 
 - [benchmark](https://github.com/zilliztech/VectorDBBench)
