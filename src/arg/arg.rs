@@ -13,7 +13,7 @@ pub struct Argument {
 
 impl Argument {
     pub fn parse(&mut self) -> Result<(), Box<dyn Error>> {
-        let matches = Command::new("ragx")
+        let matches = Command::new("vecx")
             .version(VERSION)
             .arg(
                 Arg::new("config_file")

@@ -1,14 +1,14 @@
-# ragx
+# vecx
 
-[![Actions Status](https://github.com/ai-flowx/ragx/workflows/ci/badge.svg?branch=main&event=push)](https://github.com/ai-flowx/ragx/actions?query=workflow%3Aci)
-[![License](https://img.shields.io/github/license/ai-flowx/ragx.svg?color=brightgreen)](https://github.com/ai-flowx/ragx/blob/main/LICENSE)
-[![Tag](https://img.shields.io/github/tag/ai-flowx/ragx.svg?color=brightgreen)](https://github.com/ai-flowx/ragx/tags)
+[![Actions Status](https://github.com/ai-flowx/vecx/workflows/ci/badge.svg?branch=main&event=push)](https://github.com/ai-flowx/vecx/actions?query=workflow%3Aci)
+[![License](https://img.shields.io/github/license/ai-flowx/vecx.svg?color=brightgreen)](https://github.com/ai-flowx/vecx/blob/main/LICENSE)
+[![Tag](https://img.shields.io/github/tag/ai-flowx/vecx.svg?color=brightgreen)](https://github.com/ai-flowx/vecx/tags)
 
 
 
 ## Introduction
 
-*ragx* is the ai rag of [flowx](https://github.com/ai-flowx/) written in Rust.
+*vecx* is the ai vector store of [flowx](https://github.com/ai-flowx/) written in Rust.
 
 
 
@@ -21,7 +21,7 @@
 ## Run
 
 ```bash
-./ragx --config-file="config.yml" --listen-port=":8080" --repo-path="git:path/to/repo"
+./vecx --config-file="config.yml" --listen-port=":8080" --repo-path="git:path/to/repo"
 ```
 
 
@@ -29,7 +29,7 @@
 ## Usage
 
 ```
-Usage: ragx --config-file <FILE> --listen-port <PORT> --repo-path <PATH>
+Usage: vecx --config-file <FILE> --listen-port <PORT> --repo-path <PATH>
 
 Options:
   -c, --config-file <FILE>  Config file [default: config.yml]
@@ -43,9 +43,9 @@ Options:
 
 ## Settings
 
-*ragx* parameters can be set in the directory [config](https://github.com/ai-flowx/ragx/blob/main/src/config).
+*vecx* parameters can be set in the directory [config](https://github.com/ai-flowx/vecx/blob/main/src/config).
 
-An example of configuration in [config.yml](https://github.com/ai-flowx/ragx/blob/main/src/config/config.yml):
+An example of configuration in [config.yml](https://github.com/ai-flowx/vecx/blob/main/src/config/config.yml):
 
 ```yaml
 ```

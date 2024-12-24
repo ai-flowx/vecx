@@ -1,5 +1,5 @@
 [package]
-name = "ragx"
+name = "vecx"
 version = "1.0.0"
 edition = "2021"
 rust-version = "1.83.0"
@@ -9,17 +9,17 @@ include = [
     "Cargo.toml",
     "README.md"
 ]
-description = "AI RAG"
-repository = "https://github.com/ai-flowx/ragx"
-documentation = "https://github.com/ai-flowx/ragx"
-homepage = "https://github.com/ai-flowx/ragx"
-keywords = ["ai", "rag"]
+description = "AI vector store"
+repository = "https://github.com/ai-flowx/vecx"
+documentation = "https://github.com/ai-flowx/vecx"
+homepage = "https://github.com/ai-flowx/vecx"
+keywords = ["ai", "vector", "store"]
 categories = ["database"]
 license = "MIT"
 readme = "README.md"
 
 [[bin]]
-name = "ragx"
+name = "vecx"
 path = "src/main.rs"
 
 [profile.release]
