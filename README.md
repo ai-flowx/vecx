@@ -124,5 +124,5 @@ Project License can be found [here](LICENSE).
 
 - [benchmark](https://github.com/zilliztech/VectorDBBench)
 - [qdrant](https://github.com/qdrant/qdrant)
-- [similarity-search](https://github.com/facebookresearch/faiss
+- [similarity-search](https://github.com/facebookresearch/faiss)
 - [vikingdb](https://www.volcengine.com/docs/82379/1263276)
