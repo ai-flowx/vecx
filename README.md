@@ -102,7 +102,7 @@ Project License can be found [here](LICENSE).
 - [letta](https://github.com/letta-ai/letta)
 - [sandboxfusion](https://github.com/bytedance/SandboxFusion)
 
-## LangChain
+### LangChain
 
 - [api](https://github.com/langchain-ai/langchain/blob/master/libs/core/langchain_core/vectorstores/base.py)
 - [vikingdb](https://github.com/langchain-ai/langchain/blob/master/libs/community/langchain_community/vectorstores/vikingdb.py)
