@@ -97,12 +97,32 @@ Project License can be found [here](LICENSE).
 
 ## Reference
 
-- [codegraphrag](https://mp.weixin.qq.com/s/hYJsWDkh6GnM1xqpg4gnXw)
+### Framework
+
 - [letta](https://github.com/letta-ai/letta)
+- [sandboxfusion](https://github.com/bytedance/SandboxFusion)
+
+## LangChain
+
+- [api](https://github.com/langchain-ai/langchain/blob/master/libs/core/langchain_core/vectorstores/base.py)
+- [vikingdb](https://github.com/langchain-ai/langchain/blob/master/libs/community/langchain_community/vectorstores/vikingdb.py)
+
+### Memory
+
 - [long-term-memory](https://langchain-ai.github.io/long-term-memory/)
 - [mem0](https://github.com/mem0ai/mem0)
 - [memgraph](https://github.com/memgraph/memgraph)
-- [sandboxfusion](https://github.com/bytedance/SandboxFusion)
+- [zep](https://www.getzep.com/)
+
+### RAG
+
+- [codegraphrag](https://mp.weixin.qq.com/s/hYJsWDkh6GnM1xqpg4gnXw)
 - [tree-sitter-graph](https://github.com/tree-sitter/tree-sitter-graph)
 - [vanna](https://github.com/vanna-ai/vanna)
-- [zep](https://www.getzep.com/)
+
+### Vector
+
+- [benchmark](https://github.com/zilliztech/VectorDBBench)
+- [qdrant](https://github.com/qdrant/qdrant)
+- [similarity-search](https://github.com/facebookresearch/faiss
+- [vikingdb](https://www.volcengine.com/docs/82379/1263276)
