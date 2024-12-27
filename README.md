@@ -89,6 +89,38 @@ An example of configuration in [config.yml](https://github.com/ai-flowx/vecx/blo
 
 
 
+## Features
+
+- **Indexing**
+  - millisecond-level retrieval
+  - second-level index update
+  - real-time data writing
+  - real-time indexing
+  - automatic indexing
+
+
+- **Model**
+    - inline vector model
+
+
+- **Data**
+    - multimodal data
+
+
+- **Storage**
+    - graph storage
+
+
+- **Deployment**
+    - cloud-side
+    - device-side
+
+
+- **Compatibility**
+    - vikingdb
+
+
+
 ## License
 
 Project License can be found [here](LICENSE).
