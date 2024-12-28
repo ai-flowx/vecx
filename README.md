@@ -89,6 +89,12 @@ Project License can be found [here](LICENSE).
 
 ## Reference
 
+### Embedding
+
+- [jina-models](https://jina.ai/models)
+- [voyageai-models](https://docs.anthropic.com/zh-CN/docs/build-with-claude/embeddings)
+- [voyageai-models](https://www.voyageai.com/)
+
 ### Framework
 
 - [letta](https://github.com/letta-ai/letta)
