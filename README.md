@@ -95,11 +95,6 @@ Project License can be found [here](LICENSE).
 - [voyageai-models](https://docs.anthropic.com/zh-CN/docs/build-with-claude/embeddings)
 - [voyageai-models](https://www.voyageai.com/)
 
-### Framework
-
-- [letta](https://github.com/letta-ai/letta)
-- [sandboxfusion](https://github.com/bytedance/SandboxFusion)
-
 ### LangChain
 
 - [api](https://github.com/langchain-ai/langchain/blob/master/libs/core/langchain_core/vectorstores/base.py)
@@ -115,9 +110,7 @@ Project License can be found [here](LICENSE).
 ### RAG
 
 - [aliyun-graphrag](https://developer.aliyun.com/article/1540097)
-- [codegraphrag](https://mp.weixin.qq.com/s/hYJsWDkh6GnM1xqpg4gnXw)
 - [tree-sitter-graph](https://github.com/tree-sitter/tree-sitter-graph)
-- [vanna](https://github.com/vanna-ai/vanna)
 
 ### Toolchains
 
