@@ -32,9 +32,3 @@ rustup toolchain install --force-non-host stable-x86_64-pc-windows-gnu
 # rustc --print target-list
 rustup target add x86_64-unknown-linux-gnu
 rustup toolchain install --force-non-host stable-x86_64-unknown-linux-gnu
-
-# Install for macOS
-# rustc --print target-list
-rustup target add x86_64-apple-darwin aarch64-apple-darwin
-rustup toolchain install --force-non-host stable-x86_64-apple-darwin
-rustup toolchain install --force-non-host stable-aarch64-apple-darwin

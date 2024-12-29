@@ -24,7 +24,7 @@ jobs:
       - name: Install
         run: make install
       - name: Build
-        run: type=all version=${GITHUB_REF##*/} make build
+        run: type=all make build
       - name: Zip
         run: zip -j ${{ env.TARGET_NAME }}-linux-x86_64.zip target/x86_64-unknown-linux-gnu/release/${{ env.TARGET_NAME }}
       - name: Zip
@@ -52,9 +52,9 @@ jobs:
           toolchain: stable
           override: true
       - name: Install
-        run: make install
+        run: rustup target add x86_64-apple-darwin aarch64-apple-darwin
       - name: Build
-        run: type=all version=${GITHUB_REF##*/} make build
+        run: cargo build --release --target=x86_64-apple-darwin --target=aarch64-apple-darwin
       - name: Zip
         run: zip -j ${{ env.TARGET_NAME }}-darwin-x86_64.zip target/x86_64-apple-darwin/release/${{ env.TARGET_NAME }}
       - name: Zip
