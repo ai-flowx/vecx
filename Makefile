@@ -1,9 +1,6 @@
-# Config
-
+TYPE=$(type)
 VERSION=$(version)
 
-
-# Build
 
 .PHONY: FORCE
 
@@ -23,10 +20,8 @@ test: rs-test
 .PHONY: test
 
 
-# Non-PHONY targets (real files)
-
 rs-build: FORCE
-	./script/build.sh $(VERSION)
+	./script/build.sh $(TYPE) $(VERSION)
 
 rs-clean: FORCE
 	./script/clean.sh
