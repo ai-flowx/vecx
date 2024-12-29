@@ -2,6 +2,7 @@
 
 # Install for gcc-mingw
 sudo apt install --yes --no-install-recommends gcc-mingw-w64-x86-64-win32
+sudo apt install --yes --no-install-recommends zip
 
 # Install rustup
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
