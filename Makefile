@@ -1,5 +1,4 @@
 TYPE=$(type)
-VERSION=$(version)
 
 
 .PHONY: FORCE
@@ -21,7 +20,7 @@ test: rs-test
 
 
 rs-build: FORCE
-	./script/build.sh $(TYPE) $(VERSION)
+	./script/build.sh $(TYPE)
 
 rs-clean: FORCE
 	./script/clean.sh

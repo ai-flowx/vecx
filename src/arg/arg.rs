@@ -1,7 +1,7 @@
 use clap::{Arg, Command};
 use std::error::Error;
 
-static VERSION: &str = concat!(env!("CARGO_PKG_VERSION"), "-build-", env!("build"));
+static VERSION: &str = env!("CARGO_PKG_VERSION");
 
 #[derive(Clone, Default)]
 pub struct Argument {
