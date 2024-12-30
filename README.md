@@ -65,11 +65,11 @@ An example of configuration in [config.yml](https://github.com/ai-flowx/vecx/blo
 
 
 - **Indexing**
+  - automatic indexing
   - millisecond-level retrieval
-  - second-level index update
   - real-time data writing
   - real-time indexing
-  - automatic indexing
+  - second-level index update  
 
 
 - **Model**
