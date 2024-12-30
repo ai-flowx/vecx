@@ -21,6 +21,10 @@ jobs:
           profile: minimal
           toolchain: stable
           override: true
+      - uses: actions/setup-java@v3
+        with:
+          java-version: '17'
+          distribution: 'temurin'
       - uses: android-actions/setup-android@v3
         with:
           cmdline-tools-version: 12266719
@@ -99,7 +103,7 @@ jobs:
           asset_paths: '["${{ env.TARGET_NAME }}-darwin-x86_64.zip", "${{ env.TARGET_NAME }}-darwin-x86_64.zip.sha256", "${{ env.TARGET_NAME }}-darwin-aarch64.zip", "${{ env.TARGET_NAME }}-darwin-aarch64.zip.sha256"]'
   crates:
     runs-on: ubuntu-latest
-    needs: [linux-windows, macos]
+    needs: [android, linux-windows, macos]
     steps:
       - uses: actions/checkout@v3
       - uses: actions-rs/toolchain@v1
