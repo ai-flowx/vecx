@@ -23,6 +23,7 @@ sudo apt install -y upx
 
 # Install for android
 # rustc --print target-list
+cargo install cargo-ndk
 rustup target add aarch64-linux-android
 
 # Install for linux
