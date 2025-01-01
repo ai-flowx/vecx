@@ -110,6 +110,7 @@ Project License can be found [here](LICENSE).
 ### RAG
 
 - [aliyun-graphrag](https://developer.aliyun.com/article/1540097)
+- [ragflow](https://github.com/infiniflow/ragflow)
 - [tree-sitter-graph](https://github.com/tree-sitter/tree-sitter-graph)
 
 ### Toolchains
