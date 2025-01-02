@@ -45,7 +45,11 @@ An example of configuration in [config.yml](https://github.com/ai-flowx/vecx/blo
 
 ## Architecture
 
-![arch](./arch.png "Architecture")
+
+
+## Diagram
+
+![diagram](./diagram.png "Diagram")
 
 
 
