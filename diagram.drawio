@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="sno9PfcyHxb641tRnsih" name="Page-1">
-        <mxGraphModel dx="1577" dy="2055" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2086" dy="3494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -132,6 +132,12 @@
                         <mxPoint x="919.3299999999999" y="585" as="sourcePoint"/>
                         <mxPoint x="919.3299999999999" y="515" as="targetPoint"/>
                     </mxGeometry>
+                </mxCell>
+                <mxCell id="47" value="Agent" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#0077FF;" parent="1" vertex="1">
+                    <mxGeometry x="1035" y="380" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="Chat" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#0077FF;" parent="1" vertex="1">
+                    <mxGeometry x="1035" y="509" width="70" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
