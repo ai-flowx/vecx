@@ -124,6 +124,7 @@ Project License can be found [here](LICENSE).
 ### Vector
 
 - [benchmark](https://github.com/zilliztech/VectorDBBench)
+- [polardb-for-postgresql](https://gitee.com/polardb/PolarDB-for-PostgreSQL)
 - [qdrant](https://github.com/qdrant/qdrant)
 - [similarity-search](https://github.com/facebookresearch/faiss)
 - [vikingdb](https://www.volcengine.com/docs/82379/1263276)
