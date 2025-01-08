@@ -93,6 +93,10 @@ Project License can be found [here](LICENSE).
 
 ## Reference
 
+### Cache
+
+- [sccache](https://github.com/mozilla/sccache)
+
 ### Embedding
 
 - [jina-models](https://jina.ai/models)
