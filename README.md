@@ -128,6 +128,7 @@ Project License can be found [here](LICENSE).
 
 ### Vector
 
+- [aosp-vecx](https://android-review.googlesource.com/c/platform/manifest/+/3456983)
 - [benchmark](https://github.com/zilliztech/VectorDBBench)
 - [polardb-for-postgresql](https://gitee.com/polardb/PolarDB-for-PostgreSQL)
 - [qdrant](https://github.com/qdrant/qdrant)
