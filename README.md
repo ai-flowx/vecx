@@ -93,6 +93,10 @@ Project License can be found [here](LICENSE).
 
 ## Reference
 
+### Agent
+
+- [rig](https://github.com/0xPlaygrounds/rig)
+
 ### Cache
 
 - [sccache](https://github.com/mozilla/sccache)
